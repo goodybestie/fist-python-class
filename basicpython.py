@@ -1,0 +1,2 @@
+name = "Goodnews"
+print(name)
