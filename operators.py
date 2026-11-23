@@ -43,8 +43,54 @@
 # y=False
 # print(x and y) 
 
-x=False
-y=True
-print(x or y)
+# x=False
+# y=True
+# print(x or y)
 
 
+#ifstatement
+
+# a = 18
+# b = 10
+
+# if a < b:
+#     print('you are eligible to vote')
+
+    
+# else:print('you are not eligible to vote')
+
+#else statement is used to execute a block of code when the condition in the if statement is false.
+#elif statement is used to check multiple conditions. It allows you to specify additional conditions to be checked if the previous conditions are false.
+
+#nested conditional statements are used when you have multiple conditions that need to be checked within each other. It allows you to create more complex decision-making structures.
+
+# jamb_score = 100
+# age = 20
+# if jamb_score==200:
+#     if age==18:
+#         print('you are not admitted')
+# elif jamb_score==100 and age==20:
+#     print('you are admitted')
+# else:
+#     print('sorry')
+
+#for loop(iterating over a range, iterating over a string)
+
+# for i in range(5):
+#     print(i)
+# for i in range(10, 0, -1):
+#     print(i)
+#while loop is used to execute a block of code repeatedly as long as a condition is true.``
+
+# num = 1
+
+# while num < 10:
+#     print("hello")
+#     num = num + 1
+
+count = 100
+while count>0:
+    print(count)
+    count = count -1
+
+  
