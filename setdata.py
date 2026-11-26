@@ -37,7 +37,7 @@ and performing mathematical set of operations like union, intersection, differen
 
 
 #set membership test(weather an element is present in the set or not, weather an element is a member of a set or not)
-# my_set={1, 2, 3, 4}/
+# my_set={1, 2, 3, 4}
 # print(3 in my_set) #it just checking if this element is in the set
 # print(7 in my_set)
 
@@ -52,6 +52,8 @@ and performing mathematical set of operations like union, intersection, differen
 #intersection (simply gives a common element from both the set i.e element that are available in both set)
 # intersection_set=set1.intersection(set2)
 # print(intersection_set)
+
+#intersectionupdate
 
 # print(set1.difference(set2)) #remove common element that are present in set2
 # print(set1.difference_update(set2))

@@ -6,6 +6,15 @@
 #nested condional statements
 #practical examples
 
+'''
+"Conditional logic is used to make decisions" is correct. Here are other ways to define it, from simple to more technical. Different ones will click for different students.
+
+Simple definitions
+"Conditionals let a program choose what to do based on whether something is true or false."
+"A conditional runs a piece of code only when a condition is met."
+"Conditionals let a program do different things in different situations."
+"Conditionals control which path the program takes."
+'''
 
 #if statement evaluate a condition and execute the block of code within it.  if the condition is true. If the condition is false, it skips the block of code.
 # age = 18

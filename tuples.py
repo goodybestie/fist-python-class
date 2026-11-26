@@ -1,5 +1,5 @@
 '''
-1. introductio to tuples
+1. introduction to tuples
 2. creating tuples
 3. accessing tuple elements
 4. tuple operations
@@ -26,6 +26,8 @@ lst=list()
 
 #a list can be converted into tuples;a tuples can be converted into list.
 items=tuple([1, 2, 3, 4, 5,])
+size_items =list(items)
+print(size_items)
 # print(type(items), items)
 
 #mixted tuple
@@ -45,20 +47,25 @@ continate_tuple = item1 + numbers
 #immutable nature of tuples
 #tuples are immutable meaning element cannot be changed once assign
 
-#tuple method(count)(index)
+#tuple method(count)(index) (we specifically used two method for tuples)
 # print(numbers.count(2))
 # print(numbers.index(2))
 
-#packing and unpacking tuple
-#packed tuple
+#packing and unpacking tuple 
+#packed tuple (Packing puts several values into one tuple. )
 pack_tuple = 2, "hello", True
 print(pack_tuple)
-
+# Unpacking takes the values out of a tuple and puts each one into its own variable.
 #unpacked tuple
+size=pack_tuple
 a, b, c =pack_tuple
 print(a, b, c)
 
 #nested tuples (tuples inside of tuples)
+item=((1,2,3,4),('hello','four','man'),(True, False))
+for new_tuples in item:
+    for items in new_tuples:
+        print(items,end=" ")
 
 #iterating over tuples
 

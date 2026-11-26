@@ -13,7 +13,6 @@ Keys must be unique and immutable(e.g, strings, numbers, or tuples), while value
     dictionary method
 5. iterating over dictionaries
 6.  Nested dictionary
-7. dictionary comprehensions
 
 '''
 

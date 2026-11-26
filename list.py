@@ -83,7 +83,7 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 #basic list comprehesion
 square=[i**2 for i in range(10)]
-print(square)
+# print(square)
 
 
 #list comprehension with condition
@@ -91,20 +91,37 @@ lst = []
 for i in range(10):
     if i%2==0:
         lst.append(i)
-print(lst)
+# print(lst)
 
 even_numbers = [num for num in range(10) if num%2==0]
 # print(even_numbers)
 
 #nested list comprehension [expression for item1 in iterable1 and for item2 in iterable2]
-lst=[1,2,3]
-lst_one=["a", "b", "c"]
-pair = [[i, j] for i in lst for j in lst_one]
+# items1=[[1, 2, 3, 4], ['a','b','c'], [True, False]]
+# print(items1)
+
+# lst=[1,2,3]
+# lst_one=["a", "b", "c"]
+# pair = [[i, j] for i in lst for j in lst_one]
 # print(pair)
 
+item1=[1,2,3,4]
+item2=['a','b','c','d']
+
+pair=[[i,j] for i in item1 for j in item2]
+print(pair)
+
+items=[100, 200, 300]
+prices=[]
+
+total=[item for item in items if item==200]
+prices.append(total)
+print(prices)
+
+
 #list comprehension for function call
-words=['hello', 'world', 'python']
-length=[len(word) for word in words]
+# words=['hello', 'world', 'python']
+# length=[len(word) for word in words]
 # print(length)
 
 #conclusion
